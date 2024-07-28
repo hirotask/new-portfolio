@@ -20,7 +20,7 @@
         "editor.renderWhitespace": "all",
         "extensions.ignoreRecommendations": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "code-eol.crlfCharacter": "↵",
         "code-eol.decorateBeforeEol": true,
         "code-eol.highlightExtraWhitespace": true,
@@ -29,7 +29,8 @@
         "code-eol.returnCharacter": "←",
         "prettier.resolveGlobalModules": true,
         "[elm]": {
-          "editor.defaultFormatter": "Elmtooling.elm-ls-vscode"
+          "editor.defaultFormatter": "elmTooling.elm-ls-vscode",
+          "editor.formatOnSave": true
         }
       }
     }
