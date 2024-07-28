@@ -28,6 +28,9 @@
         "code-eol.newlineCharacter": "↓",
         "code-eol.returnCharacter": "←",
         "prettier.resolveGlobalModules": true,
+		"elmLS.elmPath": "/workspaces/new-portfolio/node_modules/.bin/elm",
+		"elmLS.elmFormatPath": "/workspaces/new-portfolio/node_modules/.bin/elm-format",
+		"elmLS.elmTestPath": "/workspaces/new-portfolio/node_modules/.bin/elm-test",
         "[elm]": {
           "editor.defaultFormatter": "elmTooling.elm-ls-vscode",
           "editor.formatOnSave": true
